@@ -8,13 +8,15 @@ Ensure that you have the following installed on your machine:
 
 ## Installation
 
-1. Clone the repository:
-
-2.Navigate to the project directory:
+   1. Clone the repository:
+ # git clone  https://github.com/C19473194/fyp
+ 2. Switch to develop branch:
+   # git checkout develop
+3.Navigate to the project directory:
    # cd your-repo
-3.Build the project using Maven:
+4.Build the project using Maven:
   # mvn clean install
-4.Running the Application
+5.Running the Application
 In the project directory, you can run the application using Maven:
  # mvn spring-boot:run
 
@@ -29,13 +31,12 @@ These instructions will help you set up and run the project on your local machin
 
 ### Installation
 
-1. Clone the repository:
-   
-2.Navigate to the project directory:
+
+1. if you already have cloned the repo and checkout to develop branch  navigate to the project directory:
   # cd your-repo
-3.Install dependencies:
+2.Install dependencies:
   # npm install
-4.In the project directory, you can run:
+3.In the project directory, you can run:
   # npm start
 
 Runs the app in the development mode.\
