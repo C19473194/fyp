@@ -36,6 +36,8 @@ Ensure that you have the following installed on your machine:
 1. Clone the repositoryif not already cloned 
 2.Navigate to the project directory:
    cd your-repo
+
+3.Edit the yml file to add your prefered user name, email and password 
 3.Running the Docker ContainerBuild and run the Docker container:
 
    # docker-compose up -d
