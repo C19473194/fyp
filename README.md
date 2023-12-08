@@ -1,5 +1,6 @@
 ### Prerequisites to run Back-end 
-Prerequisites
+
+
 
 Ensure that you have the following installed on your machine:
 
@@ -20,10 +21,26 @@ Ensure that you have the following installed on your machine:
 In the project directory, you can run the application using Maven:
  # mvn spring-boot:run
 
+#Setup Database 
+This repository contains Docker configuration to set up a database using Docker containers and run SQL scripts.
 
 
+## Prerequisites
 
-These instructions will help you set up and run the project on your local machine.
+Ensure that you have the following installed on your machine:
+
+- [Docker](https://www.docker.com/get-started)
+
+## Installation
+
+1. Clone the repositoryif not already cloned 
+2.Navigate to the project directory:
+   cd your-repo
+3.Running the Docker ContainerBuild and run the Docker container:
+
+   # docker-compose up -d
+This command will create and start the Docker containers defined in the docker-compose.yml file.
+
 
 ### Prerequisites to run front-end 
 
@@ -41,5 +58,6 @@ These instructions will help you set up and run the project on your local machin
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
 
