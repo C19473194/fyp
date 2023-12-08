@@ -1,0 +1,47 @@
+/*  /* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden; /* Prevent horizontal scrollbar */
+}
+
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #555;
+  color: #fff;
+  padding: 10px;
+  z-index: 3; /* Set an even higher z-index than the side menu */
+}
+
+.menu-toggle {
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.main-content {
+  position: absolute;
+  top: 40px; /* Adjusted top position to accommodate top-nav */
+  left: 200px;
+  right: 0; /* Set right to 0 to ensure it stretches to the right edge */
+  bottom: 0; /* Set bottom to 0 to ensure it stretches to the bottom */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  padding: 20px;
+}
